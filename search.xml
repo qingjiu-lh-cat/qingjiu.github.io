@@ -38,7 +38,7 @@
 </ol>
 <hr>
 <ul>
-<li>修改一些显示问题，用编辑器打开<code>marked.js</code>（在<code>./node_modules/marked/lib/</code>中），将escape 属性值替换。</li>
+<li>修改一些显示问题，用编辑器打开<code>inline.js</code>（在<code>根目录/node_modules/kramed/lib/rules</code>中），将escape 属性值替换。</li>
 </ul>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">/// 第11行 escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span></span><br><span class="line"><span class="comment">//  替换为：</span></span><br><span class="line"><span class="attr">escape</span>: <span class="regexp">/^\\([`*\[\]()#$+\-.!_&gt;])/</span>,</span><br><span class="line"></span><br><span class="line"><span class="comment">/// 第20行 em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span></span><br><span class="line"><span class="comment">//  替换为：</span></span><br><span class="line"><span class="attr">em</span>: <span class="regexp">/^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span>,</span><br></pre></td></tr></table></figure>
 
