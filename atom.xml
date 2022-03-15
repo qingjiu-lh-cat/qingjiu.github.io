@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>青酒的代码馆</title>
+  <icon>https://qingjiu.life/images/favicon_200x200.png</icon>
+  <subtitle>浩瀚书海是我的归宿</subtitle>
+  <link href="https://qingjiu.life/atom.xml" rel="self"/>
+  
+  <link href="https://qingjiu.life/"/>
+  <updated>2022-03-14T01:24:23.597Z</updated>
+  <id>https://qingjiu.life/</id>
+  
+  <author>
+    <name>青酒</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vim常用指令</title>
+    <link href="https://qingjiu.life/Vim%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html"/>
+    <id>https://qingjiu.life/Vim%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html</id>
+    <published>2022-03-14T08:00:00.000Z</published>
+    <updated>2022-03-14T01:24:23.597Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;常用命令&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;使用f{char}移动到char字符上，t移动到前一个字符。如果第一次没搜到可用分号（；）或逗号（，）继续搜索；F反过来搜索前面的char&lt;/li&gt;
+&lt;li&gt;u 撤销undo,&amp;lt;Ctrl+r&amp;gt; redo&lt;/li&gt;
+&lt;li&gt;zc 折叠，zC折叠所有嵌套；zo展开折叠，zO展开所有折叠&lt;/li&gt;
+&lt;li&gt;!shell 执行外部命令&lt;/li&gt;
+&lt;li&gt;# 可以快速搜索本字符&amp;#x2F;单词&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="应用技术" scheme="https://qingjiu.life/categories/%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="工具" scheme="https://qingjiu.life/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="VIM" scheme="https://qingjiu.life/tags/VIM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一步一步搭建美观的博客(HEXO美化)</title>
+    <link href="https://qingjiu.life/%E4%B8%80%E6%AD%A5%E4%B8%80%E6%AD%A5%E6%90%AD%E5%BB%BA%E7%BE%8E%E8%A7%82%E7%9A%84%E5%8D%9A%E5%AE%A2(HEXO%E7%BE%8E%E5%8C%96).html"/>
+    <id>https://qingjiu.life/%E4%B8%80%E6%AD%A5%E4%B8%80%E6%AD%A5%E6%90%AD%E5%BB%BA%E7%BE%8E%E8%A7%82%E7%9A%84%E5%8D%9A%E5%AE%A2(HEXO%E7%BE%8E%E5%8C%96).html</id>
+    <published>2022-03-10T10:30:00.000Z</published>
+    <updated>2022-03-14T01:23:30.540Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;声明：全干货，没有长篇大论的讲解，只会在必要的地方加上注释&lt;/p&gt;
+&lt;p&gt;内容主要有：主题美化，公式支持，打赏功能，加载提速支持等，我的博客就是成品（&lt;a href=&quot;https://codinglibrary.github.io)./&quot;&gt;https://codinglibrary.github.io）。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;操作前提：已安装node.js 和 hexo</summary>
+    
+    
+    
+    <category term="应用技术" scheme="https://qingjiu.life/categories/%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://qingjiu.life/tags/Hexo/"/>
+    
+    <category term="教程" scheme="https://qingjiu.life/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>排序算法（更新中）</title>
+    <link href="https://qingjiu.life/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.html"/>
+    <id>https://qingjiu.life/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.html</id>
+    <published>2022-03-10T00:00:00.000Z</published>
+    <updated>2022-03-14T01:23:58.349Z</updated>
+    
+    
+    <summary type="html">&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;本文汇总了核心排序算法及其代码实现：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;bullet&quot;&gt;  -&lt;/span&gt; 插入法：直接插入排序，折半插入排序，2-路插入排序（折半插入的改进版）（待更新），希尔排序（待更新）&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;bullet&quot;&gt;  -&lt;/span&gt; 交换法：冒泡排序，快速排序&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;bullet&quot;&gt;  -&lt;/span&gt; 选择法：简单选择排序，树形选择排序（待更新），堆排序（待更新）&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;bullet&quot;&gt;  -&lt;/span&gt; 2-路归并排序&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;bullet&quot;&gt;  -&lt;/span&gt; 计数排序&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;bullet&quot;&gt;  -&lt;/span&gt; 桶排序（待更新）&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;bullet&quot;&gt;  -&lt;/span&gt; 基数排序&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="基础理论" scheme="https://qingjiu.life/categories/%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA/"/>
+    
+    
+    <category term="基础理论" scheme="https://qingjiu.life/tags/%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA/"/>
+    
+    <category term="算法" scheme="https://qingjiu.life/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序" scheme="https://qingjiu.life/tags/%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>科研方法论答案</title>
+    <link href="https://qingjiu.life/%E7%A7%91%E7%A0%94%E6%96%B9%E6%B3%95%E8%AE%BA%E7%AD%94%E6%A1%88.html"/>
+    <id>https://qingjiu.life/%E7%A7%91%E7%A0%94%E6%96%B9%E6%B3%95%E8%AE%BA%E7%AD%94%E6%A1%88.html</id>
+    <published>2022-03-09T08:00:00.000Z</published>
+    <updated>2022-03-14T01:24:02.194Z</updated>
+    
+    
+    <summary type="html">&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;备注：正确与否不做保证，但尽力保证答案正确，仅供参考！！&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;第3章-数值计算方法&quot;&gt;&lt;a href=&quot;#第3章-数值计算方法&quot; class=&quot;headerlink&quot; title=&quot;第3章 数值计算方法&quot;&gt;&lt;/a&gt;第3章 数值计算方法&lt;/h3&gt;&lt;h4 id=&quot;3-1-常用算法和计算机辅助软件&quot;&gt;&lt;a href=&quot;#3-1-常用算法和计算机辅助软件&quot; class=&quot;headerlink&quot; title=&quot;3.1 常用算法和计算机辅助软件&quot;&gt;&lt;/a&gt;3.1 常用算法和计算机辅助软件&lt;/h4&gt;&lt;h5 id=&quot;3-1-1【简答题】&quot;&gt;&lt;a href=&quot;#3-1-1【简答题】&quot; class=&quot;headerlink&quot; title=&quot;3.1.1【简答题】&quot;&gt;&lt;/a&gt;3.1.1【简答题】&lt;/h5&gt;&lt;blockquote&gt;
+&lt;p&gt;试用你熟悉的程序设计软件设计一个三角追赶法的函数，求解问题为L*Ux&amp;#x3D;b，要求输入为L、U和b，输出为x。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我的答案：&lt;/p&gt;
+&lt;p&gt;1、根据题意，所输入的L、U三角矩阵用向量a,p,q来表示。</summary>
+    
+    
+    
+    <category term="基础理论" scheme="https://qingjiu.life/categories/%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA/"/>
+    
+    
+    <category term="基础理论" scheme="https://qingjiu.life/tags/%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo配置之数学公式（Mathjax）</title>
+    <link href="https://qingjiu.life/Hexo%E9%85%8D%E7%BD%AE%E4%B9%8B%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F(Mathjax).html"/>
+    <id>https://qingjiu.life/Hexo%E9%85%8D%E7%BD%AE%E4%B9%8B%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F(Mathjax).html</id>
+    <published>2022-03-09T07:09:00.000Z</published>
+    <updated>2022-03-14T01:24:28.307Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;配置过程&quot;&gt;&lt;a href=&quot;#配置过程&quot; class=&quot;headerlink&quot; title=&quot;配置过程&quot;&gt;&lt;/a&gt;配置过程&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;既然要支持数学公式，首先就需要安装math包（以及更改渲染引擎，如果可以忽略一些奇奇怪怪的地方，就可以不更改）&lt;/li&gt;
+&lt;li&gt;然后是 $\LaTeX$公式的支持：&lt;ul&gt;
+&lt;li&gt;其一，更改math相关配置（根目录下）&lt;/li&gt;
+&lt;li&gt;其二，更改主题配置文件中math相关参数以支持mathjax（主题目录下）&lt;/li&gt;
+&lt;li&gt;其三，在个人文章中使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;至此配置就完成了（只要你能忍受一些小Bug）&lt;/li&gt;
+&lt;li&gt;修复公式的显示问题（ LaTeX 与 Markdown 语法存在冲突）&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="应用技术" scheme="https://qingjiu.life/categories/%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://qingjiu.life/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>编译原理-MOOC</title>
+    <link href="https://qingjiu.life/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86-MOOC.html"/>
+    <id>https://qingjiu.life/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86-MOOC.html</id>
+    <published>2022-03-09T05:13:13.000Z</published>
+    <updated>2022-03-14T01:24:05.560Z</updated>
+    
+    
+    <summary type="html">&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;学习笔记&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+
+
+&lt;h2 id=&quot;一、引论&quot;&gt;&lt;a href=&quot;#一、引论&quot; class=&quot;headerlink&quot; title=&quot;一、引论&quot;&gt;&lt;/a&gt;一、引论&lt;/h2&gt;&lt;h3 id=&quot;I-什么是编译程序&quot;&gt;&lt;a href=&quot;#I-什么是编译程序&quot; class=&quot;headerlink&quot; title=&quot;I.什么是编译程序&quot;&gt;&lt;/a&gt;I.什么是编译程序&lt;/h3&gt;&lt;p&gt;关键点：&lt;/p&gt;
+&lt;p&gt;翻译程序、编译程序、诊断编译程序（Diagnostic Compiler）、优化编译程序（Optimizing Compiler）、宿主机、目标机、交叉编译程序（Cross Compiler）、可变目标编译程序（Retargetable Compiler）&lt;/p&gt;
+&lt;p&gt;解释程序、编译vs.解释&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="基础理论" scheme="https://qingjiu.life/categories/%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA/"/>
+    
+    
+    <category term="基础理论" scheme="https://qingjiu.life/tags/%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式之美</title>
+    <link href="https://qingjiu.life/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E7%BE%8E.html"/>
+    <id>https://qingjiu.life/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E7%BE%8E.html</id>
+    <published>2022-03-05T00:00:00.000Z</published>
+    <updated>2022-03-14T01:23:50.751Z</updated>
+    
+    
+    <summary type="html">&lt;figure class=&quot;highlight ada&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;极客时间 《设计模式之美》——王争&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;---学习笔记&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;设计模式学习导读&quot;&gt;&lt;a href=&quot;#设计模式学习导读&quot; class=&quot;headerlink&quot; title=&quot;设计模式学习导读&quot;&gt;&lt;/a&gt;设计模式学习导读&lt;/h1&gt;&lt;h2 id=&quot;为什么说每个程序员都要尽早地学习并掌握设计模式相关知识？&quot;&gt;&lt;a href=&quot;#为什么说每个程序员都要尽早地学习并掌握设计模式相关知识？&quot; class=&quot;headerlink&quot; title=&quot;为什么说每个程序员都要尽早地学习并掌握设计模式相关知识？&quot;&gt;&lt;/a&gt;为什么说每个程序员都要尽早地学习并掌握设计模式相关知识？&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://time.geekbang.org/column/article/160981&quot;&gt;文章链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;从哪些维度评判代码质量的好坏？如何具备写出高质量代码的能力？&quot;&gt;&lt;a href=&quot;#从哪些维度评判代码质量的好坏？如何具备写出高质量代码的能力？&quot; class=&quot;headerlink&quot; title=&quot;从哪些维度评判代码质量的好坏？如何具备写出高质量代码的能力？&quot;&gt;&lt;/a&gt;从哪些维度评判代码质量的好坏？如何具备写出高质量代码的能力？&lt;/h2&gt;&lt;h3 id=&quot;1-如何评价代码质量的高低？&quot;&gt;&lt;a href=&quot;#1-如何评价代码质量的高低？&quot; class=&quot;headerlink&quot; title=&quot;1. 如何评价代码质量的高低？&quot;&gt;&lt;/a&gt;1. 如何评价代码质量的高低？&lt;/h3&gt;&lt;p&gt;代码质量的评价有很强的主观性，描述代码质量的词汇也有很多，比如可读性、可维护性、灵活、优雅、简洁等，这些词汇是从不同的维度去评价代码质量的。它们之间有互相作用，并不是独立的，比如，代码的可读性好、可扩展性好就意味着代码的可维护性好。代码质量高低是一个综合各种因素得到的结论。我们并不能通过单一的维度去评价一段代码的好坏。&lt;/p&gt;
+&lt;h3 id=&quot;2-最常用的评价标准有哪几个？&quot;&gt;&lt;a href=&quot;#2-最常用的评价标准有哪几个？&quot; class=&quot;headerlink&quot; title=&quot;2. 最常用的评价标准有哪几个？&quot;&gt;&lt;/a&gt;2. 最常用的评价标准有哪几个？&lt;/h3&gt;&lt;p&gt;最常用到几个评判代码质量的标准是：可维护性、可读性、可扩展性、灵活性、简洁性、可复用性、可测试性。其中，可维护性、可读性、可扩展性又是提到最多的、最重要的三个评价标准。&lt;/p&gt;
+&lt;h3 id=&quot;3-如何才能写出高质量的代码？&quot;&gt;&lt;a href=&quot;#3-如何才能写出高质量的代码？&quot; class=&quot;headerlink&quot; title=&quot;3. 如何才能写出高质量的代码？&quot;&gt;&lt;/a&gt;3. 如何才能写出高质量的代码？&lt;/h3&gt;&lt;p&gt;要写出高质量代码，我们就需要掌握一些更加细化、更加能落地的编程方法论，这就包含面向对象设计思想、设计原则、设计模式、编码规范、重构技巧等等，这也是我们后面课程学习的重点。</summary>
+    
+    
+    
+    <category term="基础理论" scheme="https://qingjiu.life/categories/%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA/"/>
+    
+    
+    <category term="基础理论" scheme="https://qingjiu.life/tags/%E5%9F%BA%E7%A1%80%E7%90%86%E8%AE%BA/"/>
+    
+    <category term="设计模式" scheme="https://qingjiu.life/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+</feed>
